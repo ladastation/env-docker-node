@@ -1,0 +1,36 @@
+{
+    "name": "env-docker-node",
+    "version": "1.0.0",
+    "description": "Utility to get node.js environment variable or environment variable file. To support the Docker VAR / VAR_FILE definition",
+    "main": "lib/util.js",
+    "types": "lib/util.d.ts",
+    "scripts": {
+        "test": "jest ./tests"
+    },
+    "keywords": [
+        "env",
+        "environment",
+        "variables",
+        "docker",
+        "config",
+        "file",
+        "backend",
+        "node"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ladastation/env-docker-node.git"
+    },
+    "author": "ladastation",
+    "license": "ISC",
+    "dependencies" : {
+        "commander" : "~2.0.0",
+        "typescript": "^3.9.3"
+    },
+    "devDependencies": {
+        "@types/node": "^13.9.5",
+        "coveralls": "^3.0.0",
+        "jest": "^25.0.0",
+        "typescript": "^3.8.3"
+    }
+}
